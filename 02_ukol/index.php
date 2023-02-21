@@ -89,8 +89,9 @@ else {
 	// Body
 	for ($i = 0; $i < $width; $i++) {
 		print('X');
-	}
-	print('<br>');
+	}?>
+	<br>
+	<?php
 	for ($i = 1; $i < $height - 1; $i++) {
 		print('X');
 		for ($j = 1; $j < $width - 1; $j++) {
